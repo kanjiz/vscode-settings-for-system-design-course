@@ -1,10 +1,7 @@
 {
     "recommendations": [
-        // EditorConfig for VS Code
         "editorconfig.editorconfig",
-        // Language pack extension for Japanese
         "ms-ceintl.vscode-language-pack-ja",
-        // Java Extension Pack
         "vscjava.vscode-java-pack"
     ]
 }
