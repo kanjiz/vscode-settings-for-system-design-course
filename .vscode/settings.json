@@ -1,7 +1,4 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
     "editor.formatOnSave": true,
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.format.settings.profile": "GoogleStyle",
