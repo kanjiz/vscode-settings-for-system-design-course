@@ -1,7 +1,4 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    },
     "editor.formatOnSave": true,
     "java.checkstyle.configuration": "${workspaceFolder}/config/checkstyle/checkstyle.xml",
     "java.checkstyle.version": "10.12.1",
