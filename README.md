@@ -13,25 +13,60 @@
 
 ファイルを保存するときにコードを自動的に整形するかどうかを設定する項目です。この場合、`true`に設定されているため、ファイルを保存するとコードが自動的に整形されます。つまり、コードを見やすく整えることができます。
 
+```json:settings.json
+{
+  "editor.formatOnSave": true
+}
+```
 ### java.checkstyle.configuration
 
 Javaコードの品質をチェックするためのCheckstyleの設定ファイルの場所を設定する項目です。Checkstyleは、Javaコードのスタイルや規約に沿っているかどうかをチェックし、問題がある場合には警告やエラーを表示します。`java.checkstyle.configuration`を設定することで、Visual Studio CodeがCheckstyleを使用してJavaコードの品質をチェックするようになります。
+
+```json:settings.json
+{
+  "java.checkstyle.configuration": "${workspaceFolder}/config/checkstyle/checkstyle.xml"
+}
+```
 
 ### java.checkstyle.version
 
 Javaコードの品質をチェックするためのツールであるCheckstyleのバージョンを設定する項目です。`java.checkstyle.version`を設定することで、Visual Studio Codeが指定したバージョンのCheckstyleを使用してJavaコードの品質をチェックするようになります。
 
+```json:settings.json
+{
+  "java.checkstyle.version": "10.12.1"
+}
+```
+
 ### java.configuration.updateBuildConfiguration
 
 Gradleビルドファイルの変更を自動的に更新するかどうかを設定する項目です。この場合、`automatic`に設定されているため、Gradleビルドファイルが変更された場合に自動的に更新されます。
+
+```json:settings.json
+{
+  "java.configuration.updateBuildConfiguration": "automatic"
+}
+```
 
 ### java.format.settings.profile
 
 Javaコードの見た目を整えるために使用するプロファイルを設定する項目です。この場合、`GoogleStyle`に設定されているため、JavaコードをGoogle Java Styleに合わせて整形することができます。つまり、Googleが推奨するJavaコードの書き方に合わせて、コードの見た目を整えることができます。
 
+```json:settings.json
+{
+  "java.format.settings.profile": "GoogleStyle"
+}
+```
+
 ### java.format.settings.url
 
 Javaコードの見た目を整えるために使用するフォーマット設定ファイルの場所を設定する項目です。この場合、Google Java Styleの設定ファイルが指定されています。
+
+```json:settings.json
+{
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml"
+}
+```
 
 ## extensions.json
 
